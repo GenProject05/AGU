@@ -1,13 +1,19 @@
 <script setup lang="ts">
 import NavbarCard from '@/components/NavbarCard.vue'
-import HeroCard from '@/components/Home/widgets/HeroCard.vue'
 import FooterCard from '@/components/FooterCard.vue'
 </script>
 
 <template>
-  <main>
+  <div>
     <NavbarCard />
-    <HeroCard />
+    <p>Hello, World!</p>
     <FooterCard />
-  </main>
+  </div>
 </template>
+
+<style scoped>
+p {
+  color: blue;
+  font-size: 20px;
+}
+</style>

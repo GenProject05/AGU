@@ -3,7 +3,9 @@
     <div class="container mx-auto flex justify-between items-center">
       <!-- Logo Section -->
       <div class="flex items-center">
-        <img src="@/assets/logo AGU.jpg" alt="logo" class="w-14 h-14 rounded-full border-2 border-white" />
+        <RouterLink to="/">
+          <img src="@/assets/logo AGU.jpg" alt="logo" class="w-11 h-11 rounded-full" />
+        </RouterLink>
       </div>
 
       <!-- Navbar Links -->
@@ -11,7 +13,7 @@
         <li>
           <RouterLink
             to="/"
-            class="text-white text-lg font-semibold hover:text-indigo-200 transition duration-300 relative"
+            class="text-white text-lg font-semibold hover:text-indigo-200 transition duration-300"
             active-class="text-indigo-200 border-b-4 border-indigo-300"
           >
             Home
@@ -20,7 +22,7 @@
         <li>
           <RouterLink
             to="/albums"
-            class="text-white text-lg font-semibold hover:text-indigo-200 transition duration-300 relative"
+            class="text-white text-lg font-semibold hover:text-indigo-200 transition duration-300"
             active-class="text-indigo-200 border-b-4 border-indigo-300"
           >
             Albums
@@ -29,7 +31,7 @@
         <li>
           <RouterLink
             to="/about"
-            class="text-white text-lg font-semibold hover:text-indigo-200 transition duration-300 relative"
+            class="text-white text-lg font-semibold hover:text-indigo-200 transition duration-300"
             active-class="text-indigo-200 border-b-4 border-indigo-300"
           >
             About
@@ -38,7 +40,7 @@
         <li>
           <RouterLink
             to="/login"
-            class="text-white text-lg font-semibold hover:text-indigo-200 transition duration-300 relative"
+            class="text-white text-lg font-semibold hover:text-indigo-200 transition duration-300"
             active-class="text-indigo-200 border-b-4 border-indigo-300"
           >
             Login
@@ -49,11 +51,6 @@
   </nav>
 </template>
 
-<script>
-export default {
-  name: 'Navbar',
-};
-</script>
+<script lang="ts"></script>
 
-<style scoped>
-</style>
+<style scoped></style>
