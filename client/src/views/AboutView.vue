@@ -1,4 +1,10 @@
+<script setup lang="ts">
+import NavbarCard from '../components/NavbarCard.vue';
+</script>
+
+
 <template>
+  <NavbarCard />
   <div class="about">
     <h1>This is an about page</h1>
   </div>

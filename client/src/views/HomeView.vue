@@ -1,9 +1,11 @@
 <script setup lang="ts">
-import TheWelcome from '../components/TheWelcome.vue'
+import NavbarCard from '../components/NavbarCard.vue'
+import HeroCard from '../components/Landing/widgets/HeroCard.vue'
 </script>
 
 <template>
   <main>
-    <TheWelcome />
+    <NavbarCard />
+    <HeroCard />
   </main>
 </template>
