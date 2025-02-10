@@ -3,6 +3,7 @@ import HomeView from '@/views/HomeView.vue'
 import AboutView from '@/views/AboutView.vue'
 import AlbumsView from '@/views/AlbumsView.vue'
 import LoginView from '@/views/LoginView.vue'
+import RegisterView from '@/views/RegisterView.vue'
 import NotFound from '@/views/NotFound.vue'
 
 const routes = [
@@ -25,6 +26,11 @@ const routes = [
     path: '/login',
     name: 'login',
     component: LoginView,
+  },
+  {
+    path: '/register',
+    name: 'register',
+    component: RegisterView,
   },
   // Catch-all route untuk halaman yang tidak ditemukan
   {
